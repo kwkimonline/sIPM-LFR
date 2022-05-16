@@ -18,6 +18,8 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 - COMPAS dataset: 
 - Heritage Health dataset: 
 
+For other datasets, you can freely perform experiments by adding those data in folder ```./datasets```.
+
 ## 2. Training
 
 ### Example commands
