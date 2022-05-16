@@ -1,12 +1,13 @@
-# sIPM-LFR
+# sIPM-LFR: Learning fair representation with a parametric integral probability metric
 
-This is the official source code of "Learning fair representation with a parametric integral probability metric" published in ICML 2022.
+Official pytorch implementation of [Learning fair representation with a parametric integral probability metric](https://arxiv.org/abs/2202.02943) published in ICML 2022.
+
+
+## Dependencies
 
 ## Example command
 
-## Environments
-
-
+## Citation
 
 ### TODO
 
