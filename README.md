@@ -17,7 +17,7 @@ For supervised LFR:
 python main.py --dataset adult --lmda 1.0 --lmdaR 0.0 --lmdaF 5.0 --head_net 1smooth
 ```
 
-### sweeping with many ```\lambda```s
+### sweeping with many ```math \lambda```s
 
 ## Citation
 
