@@ -7,7 +7,7 @@ Official pytorch implementation of [Learning fair representation with a parametr
 
 ## Example commands
 
-### with a single ```\lambda```
+### with a single $`\lambda`$
 For unsupervised LFR:
 ```python
 python main.py --dataset adult --lmda 0.0 --lmdaR 1.0 --lmdaF 5.0 --head_net 1smooth
