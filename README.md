@@ -35,6 +35,11 @@ head_net:
 
 ## Citation
 
+## Datasets
+- Adult Income dataset: 
+- COMPAS dataset: 
+- Heritage Health dataset: 
+
 ### TODO
 
 
