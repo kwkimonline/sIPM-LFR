@@ -4,7 +4,7 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 
 ## 1. Dependencies
 
-## Environments
+### Environments
 
 - python 3.6+
 - torch 1.11.0+
@@ -13,16 +13,16 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 - sklearn 1.1.0+
 - argparse 1.1+
 
-## Datasets
+### Datasets
 - Adult Income dataset: 
 - COMPAS dataset: 
 - Heritage Health dataset: 
 
 ## 2. Training
 
-## Example commands
+### Example commands
 
-### with a single fair hyperparameter
+#### with a single fair hyperparameter
 - For unsupervised LFR:
 ```python
 python main.py --dataset adult --lmda 0.0 --lmdaR 1.0 --lmdaF 5.0 --head_net 1smooth
@@ -32,7 +32,7 @@ python main.py --dataset adult --lmda 0.0 --lmdaR 1.0 --lmdaF 5.0 --head_net 1sm
 python main.py --dataset adult --lmda 1.0 --lmdaR 0.0 --lmdaF 5.0 --head_net 1smooth
 ```
 
-### sweeping with many hyperparameters
+#### sweeping with many hyperparameters
 - run ```./execute.bash```
 dataset:
 svm: 
@@ -42,7 +42,7 @@ head_net:
 
 ## 3. Results (paper)
 
-## Citation
+### Citation
 
 ```
 @inproceedings{kim2022sipmlfr,
