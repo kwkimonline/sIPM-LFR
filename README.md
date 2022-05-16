@@ -29,9 +29,9 @@ For other datasets, you can freely perform experiments by adding those data in f
 
 #### with a single fair hyperparameter
 - For unsupervised LFR:
-```python python main.py --dataset adult --lmda 0.0 --lmdaR 1.0 --lmdaF 5.0 --head_net 1smooth```
+```python main.py --dataset adult --lmda 0.0 --lmdaR 1.0 --lmdaF 5.0 --head_net 1smooth```
 - For supervised LFR:
-```python python main.py --dataset adult --lmda 1.0 --lmdaR 0.0 --lmdaF 5.0 --head_net 1smooth```
+```python main.py --dataset adult --lmda 1.0 --lmdaR 0.0 --lmdaF 5.0 --head_net 1smooth```
 
 #### sweeping with many hyperparameters
 - run ```./execute.bash```
