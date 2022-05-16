@@ -45,6 +45,12 @@ Then, you see five components to be typed.
 
 ## 3. Results (paper)
 
+![mean_dp_acc_scatter_laftr_Adadelta_2 0](https://user-images.githubusercontent.com/83457230/168527608-ad483f89-07eb-4bb1-87e6-8202045203d0.png)
+![mean_dp_acc_scatter_pipm_Adadelta_2 0](https://user-images.githubusercontent.com/83457230/168527611-c8944011-0bc5-459f-a748-6938e6e0e7b7.png)
+![adult_mean_dp_acc](https://user-images.githubusercontent.com/83457230/168527612-fd49301f-48a8-40ec-b908-b06b6e685cd9.png)
+![compas_mean_dp_acc](https://user-images.githubusercontent.com/83457230/168527613-d921617d-a536-4854-9c98-132147826f5f.png)
+![health_mean_dp_acc](https://user-images.githubusercontent.com/83457230/168527615-7764ef5b-cfaa-49d1-aa12-ad33d2fc3614.png)
+
 ### Citation
 
 ```
