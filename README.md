@@ -2,7 +2,7 @@
 
 Official pytorch implementation of ["Learning fair representation with a parametric integral probability metric"](https://arxiv.org/abs/2202.02943) published in [ICML 2022](https://icml.cc/Conferences/2022/).
 
-1. Dependencies
+## 1. Dependencies
 
 ## Environments
 
@@ -18,7 +18,7 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 - COMPAS dataset: 
 - Heritage Health dataset: 
 
-2. Training
+## 2. Training
 
 ## Example commands
 
@@ -40,7 +40,7 @@ unsup:
 pcg_id:
 head_net:
 
-3. Results (paper)
+## 3. Results (paper)
 
 ## Citation
 
