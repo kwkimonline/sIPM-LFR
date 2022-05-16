@@ -5,6 +5,13 @@ Official pytorch implementation of [Learning fair representation with a parametr
 
 ## Dependencies
 
+- python 3.6+
+- torch 1.11.0+
+- CUDA 10.2+
+- numpy 1.22.2+
+- sklearn 1.1.0+
+- argparse 1.1+
+
 ## Example commands
 
 ### with a single fair hyperparameter
