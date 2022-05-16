@@ -1,9 +1,10 @@
 # sIPM-LFR: Learning fair representation with a parametric integral probability metric
 
-Official pytorch implementation of [Learning fair representation with a parametric integral probability metric](https://arxiv.org/abs/2202.02943) published in [ICML 2022](https://icml.cc/Conferences/2022/).
+Official pytorch implementation of ["Learning fair representation with a parametric integral probability metric"](https://arxiv.org/abs/2202.02943) published in [ICML 2022](https://icml.cc/Conferences/2022/).
 
+1. Dependencies
 
-## Dependencies
+## Environments
 
 - python 3.6+
 - torch 1.11.0+
@@ -11,6 +12,13 @@ Official pytorch implementation of [Learning fair representation with a parametr
 - numpy 1.22.2+
 - sklearn 1.1.0+
 - argparse 1.1+
+
+## Datasets
+- Adult Income dataset: 
+- COMPAS dataset: 
+- Heritage Health dataset: 
+
+2. Training
 
 ## Example commands
 
@@ -32,13 +40,18 @@ unsup:
 pcg_id:
 head_net:
 
+3. Results (paper)
 
 ## Citation
 
-## Datasets
-- Adult Income dataset: 
-- COMPAS dataset: 
-- Heritage Health dataset: 
+```
+@inproceedings{kim2022sipmlfr,
+  title={Learning fair representation with a parametric integral probability metric},
+  author={Dongha Kim and Kunwoong Kim and Insung Kong and Ilsang Ohn and Yongdai Kim},
+  booktitle={International Conference on Machine Learning},
+  year={2022}
+}
+```
 
 ### TODO
 
