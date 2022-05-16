@@ -25,6 +25,13 @@ python main.py --dataset adult --lmda 1.0 --lmdaR 0.0 --lmdaF 5.0 --head_net 1sm
 ```
 
 ### sweeping with many hyperparameters
+- run ```./execute.bash```
+dataset:
+svm: 
+unsup:
+pcg_id:
+head_net:
+
 
 ## Citation
 
