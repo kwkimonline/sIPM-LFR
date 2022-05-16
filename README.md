@@ -13,6 +13,11 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 - sklearn 1.1.0+
 - argparse 1.1+
 
+Automatically, those environmental dependencies are installed by the following command:
+```
+pip install -r requirement.txt
+```
+
 ### Datasets
 - Adult Income dataset: 
 - COMPAS dataset: 
