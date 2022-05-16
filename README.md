@@ -21,7 +21,7 @@ Automatically, those environmental dependencies are installed by the following c
 - COMPAS dataset: 
 - Heritage Health dataset: 
 
-For other datasets, you can freely perform experiments by adding those data in folder ```./datasets```.
+For other datasets, practitioners can freely perform experiments by customizing.
 
 ## 2. Training
 
@@ -44,14 +44,6 @@ Then, you see five components to be typed.
 * head_net:
 
 ## 3. Results (paper)
-
-![compas_mean_dp_acc](https://user-images.githubusercontent.com/83457230/168527875-35470fa8-a157-46bb-bc47-bfdc6edd29bf.jpg)
-![health_mean_dp_acc](https://user-images.githubusercontent.com/83457230/168527878-2a68dcf4-306b-42a7-9773-c9a0c3fbe531.jpg)
-![adult_mean_dp_acc](https://user-images.githubusercontent.com/83457230/168527879-e050256a-a45d-4e8e-a13a-82a5e981113c.jpg)
-
-For stability, it is found that sIPM-LFR is more stable than LAFTR.
-![mean_dp_acc_scatter_laftr_Adadelta_2 0](https://user-images.githubusercontent.com/83457230/168527608-ad483f89-07eb-4bb1-87e6-8202045203d0.png)
-![mean_dp_acc_scatter_pipm_Adadelta_2 0](https://user-images.githubusercontent.com/83457230/168527611-c8944011-0bc5-459f-a748-6938e6e0e7b7.png)
 
 ### Citation
 
