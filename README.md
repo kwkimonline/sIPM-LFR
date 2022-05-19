@@ -16,7 +16,7 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 - argparse 1.1+
 - yaml 6.0+
 
-Automatically, those environmental dependencies are installed by the following command:
+Automatically, those environmental dependencies are installed by running the following command:
 ```pip install -r requirements.txt```
 
 ### Datasets
@@ -24,7 +24,7 @@ Automatically, those environmental dependencies are installed by the following c
 - [COMPAS dataset](https://github.com/propublica/compas-analysis)
 - [Heritage Health dataset](https://foreverdata.org/1015/index.html)
 
-For other datasets, practitioners can freely perform experiments through customizing.
+Practitioners can freely use other custom datasets.
 
 ## 2. Training
 
@@ -34,11 +34,11 @@ For other datasets, practitioners can freely perform experiments through customi
 - For unsupervised LFR:
 ```python main.py --dataset adult --lmda 0.0 --lmdaR 1.0 --lmdaF 5.0 --head_net 1smooth```
 - For supervised LFR:
-```python main.py --dataset adult --lmda 1.0 --lmdaR 0.0 --lmdaF 5.0 --head_net 1smooth```
+```python main.py --dataset compas --lmda 1.0 --lmdaR 0.0 --lmdaF 0.1 --head_net 1smooth```
 
 #### sweeping with many hyperparameters
 - run ```./execute.bash``` for Adult dataset.
-- For COMPAS and Health datasets, you need to modify the argument ```--dataset compas``` or ```--dataset health```.
+- For COMPAS and Health datasets, you need to replace the argument ```--dataset``` as ```--dataset compas``` or ```--dataset health```.
 
 ### Saved models and results
 - The selected models and corresponding results are saved in folders ```/models``` and ```/results```.
