@@ -21,7 +21,7 @@ Automatically, those environmental dependencies are installed by the following c
 - [Adult Income dataset](https://archive.ics.uci.edu/ml/datasets/adult)
 - [COMPAS dataset](https://github.com/propublica/compas-analysis)
 - [Heritage Health dataset](https://foreverdata.org/1015/index.html)
-- 
+
 For other datasets, practitioners can freely perform experiments through customizing.
 
 ## 2. Training
@@ -38,6 +38,8 @@ For other datasets, practitioners can freely perform experiments through customi
 - run ```./execute.bash``` for Adult dataset.
 - For COMPAS and Health datasets, you need to modify the argument ```--dataset compas``` or ```--dataset health```.
 
+### Saved models and results
+- The selected models and corresponding results are saved in folders ```/models``` and ```/results```.
 
 ## 3. Results (paper)
 
