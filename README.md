@@ -45,7 +45,7 @@ For other datasets, practitioners can freely perform experiments through customi
 
 ## 3. Results (paper)
 
-<img src="https://user-images.githubusercontent.com/83457230/169192362-a99cd621-70c2-491b-a194-603e22bbedcc.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/83457230/169193245-c0d7e06d-642f-443f-9e85-b91933e09b3f.png" width="800" height="250">
 
 ### Citation
 
