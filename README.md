@@ -15,7 +15,7 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 - yaml 6.0+
 
 Automatically, those environmental dependencies are installed by the following command:
-```pip install -r requirement.txt```
+```pip install -r requirements.txt```
 
 ### Datasets
 - [Adult Income dataset](https://archive.ics.uci.edu/ml/datasets/adult)
