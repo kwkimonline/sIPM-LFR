@@ -38,7 +38,6 @@ Practitioners can freely use other custom datasets.
 
 #### sweeping with many hyperparameters
 - run ```./execute.bash``` for Adult dataset.
-- For COMPAS and Health datasets, you need to replace the argument ```--dataset``` as ```--dataset compas``` or ```--dataset health```.
 
 ### Saved models and results
 - The selected models and corresponding results are saved in folders ```/models``` and ```/results```.
