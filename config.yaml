@@ -15,6 +15,6 @@ head_net: "linear" # classifier network
 aud_dim: 0 # discriminator hidden dimension
 eval_freq: 10 # frequency (epochs) of evaluation
 
-lmda: 0.0 # cross entropy hyperparameter (sup)
+lmda: 0.0 # cross entropy hyperparameter (set 1 if sup, 0 if unsup)
 lmdaF: 0.0 # fair hyperparameter
-lmdaR: 1.0 # reconstruction hyperparameter (unsup)
+lmdaR: 1.0 # reconstruction hyperparameter (set 1 if unsup, 0 if sup)
