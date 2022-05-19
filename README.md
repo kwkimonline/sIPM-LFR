@@ -44,8 +44,9 @@ For other datasets, practitioners can freely perform experiments through customi
 - The selected models and corresponding results are saved in folders ```/models``` and ```/results```.
 
 ## 3. Results (paper)
+Experimental results on Adult dataset
+<img src="https://user-images.githubusercontent.com/83457230/169193245-c0d7e06d-642f-443f-9e85-b91933e09b3f.png" width="850" height="250">
 
-<img src="https://user-images.githubusercontent.com/83457230/169193245-c0d7e06d-642f-443f-9e85-b91933e09b3f.png" width="800" height="250">
 
 ### Citation
 
