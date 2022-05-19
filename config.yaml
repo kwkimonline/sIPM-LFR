@@ -1,7 +1,7 @@
 run_five: 1 # random five experiments
 
 dataset: "adult" # dataset
-scaling: 1 # scaling input vectors
+scaling: 1 # scaling input vectors if reconstruct
 batch_size: 512 # training batch size
 epochs: 300 # training epochs
 opt: 'Adam' # encoder + (decoder, classifier) optimizer
