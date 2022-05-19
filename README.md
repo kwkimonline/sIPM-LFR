@@ -12,6 +12,7 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 - numpy 1.22.2+
 - sklearn 1.1.0+
 - argparse 1.1+
+- yaml 6.0+
 
 Automatically, those environmental dependencies are installed by the following command:
 ```pip install -r requirement.txt```
@@ -20,6 +21,7 @@ Automatically, those environmental dependencies are installed by the following c
 - [Adult Income dataset](https://archive.ics.uci.edu/ml/datasets/adult)
 - [COMPAS dataset](https://github.com/propublica/compas-analysis)
 - [Heritage Health dataset](https://foreverdata.org/1015/index.html)
+- 
 For other datasets, practitioners can freely perform experiments through customizing.
 
 ## 2. Training
