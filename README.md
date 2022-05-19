@@ -17,11 +17,10 @@ Automatically, those environmental dependencies are installed by the following c
 ```pip install -r requirement.txt```
 
 ### Datasets
-- Adult Income dataset: 
-- COMPAS dataset: 
-- Heritage Health dataset: 
-
-For other datasets, practitioners can freely perform experiments by customizing.
+- [Adult Income dataset](https://archive.ics.uci.edu/ml/datasets/adult)
+- [COMPAS dataset](https://github.com/propublica/compas-analysis)
+- [Heritage Health dataset](https://foreverdata.org/1015/index.html)
+For other datasets, practitioners can freely perform experiments through customizing.
 
 ## 2. Training
 
@@ -34,14 +33,9 @@ For other datasets, practitioners can freely perform experiments by customizing.
 ```python main.py --dataset adult --lmda 1.0 --lmdaR 0.0 --lmdaF 5.0 --head_net 1smooth```
 
 #### sweeping with many hyperparameters
-- run ```./execute.bash```
+- run ```./execute.bash``` for Adult dataset.
+- For COMPAS and Health datasets, you need to modify the argument ```--dataset compas``` or ```--dataset health```.
 
-Then, you see five components to be typed.
-* dataset:
-* svm: 
-* unsup:
-* pcg_id:
-* head_net:
 
 ## 3. Results (paper)
 
