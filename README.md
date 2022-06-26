@@ -42,7 +42,7 @@ Practitioners can freely use other custom datasets.
 ### Saved models and results
 - The selected models and corresponding results are saved in folders ```/models``` and ```/results```.
 
-## 3. Results (paper)
+<!-- ## 3. Results (paper)
 Experimental results on Adult dataset:
 <p align="center"><img src="https://user-images.githubusercontent.com/83457230/169193245-c0d7e06d-642f-443f-9e85-b91933e09b3f.png" width="850" height="250"></p>
 
@@ -56,4 +56,4 @@ Experimental results on Adult dataset:
   booktitle={International Conference on Machine Learning},
   year={2022}
 }
-```
+``` -->
