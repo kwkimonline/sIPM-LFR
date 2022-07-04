@@ -2,8 +2,6 @@
 
 Official pytorch implementation of ["Learning fair representation with a parametric integral probability metric"](https://arxiv.org/abs/2202.02943) published in [ICML 2022](https://icml.cc/Conferences/2022/) by Dongha Kim, Kunwoong Kim, Insung Kong, Ilsang Ohn, and Yongdai Kim.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/83457230/169192250-014ff243-4a4a-4231-8689-5c533c9610ca.png" width="400" height="40"></p>
-
 ## 1. Dependencies
 
 ### Environments
