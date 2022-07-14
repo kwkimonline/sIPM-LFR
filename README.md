@@ -42,19 +42,11 @@ Practitioners can freely use other custom datasets.
 
 ### Citation
 ```
-@InProceedings{pmlr-v162-kim22b,
+@InProceedings{kim2022sipmlfr,
   title = {Learning fair representation with a parametric integral probability metric},
   author = {Kim, Dongha and Kim, Kunwoong and Kong, Insung and Ohn, Ilsang and Kim, Yongdai},
   booktitle = {Proceedings of the 39th International Conference on Machine Learning},
-  pages = {11074--11101},
-  year = {2022},
-  editor = {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
-  volume = {162},
-  series = {Proceedings of Machine Learning Research},
-  month = {17--23 Jul},
-  publisher = {PMLR},
-  pdf = {https://proceedings.mlr.press/v162/kim22b/kim22b.pdf},
-  url = {https://proceedings.mlr.press/v162/kim22b.html}
+  year = {2022}
 }
 ```
 
