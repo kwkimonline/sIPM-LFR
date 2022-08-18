@@ -57,7 +57,7 @@ def _eval(dataset=None,
     # vdp
     vdp = preds0.std()**2 - preds1.std()**2
     vdp = abs(vdp)    
-    # sdp and ksdp
+    # sdp
     dps = []
     for tau in taus:
         tau_dp = (preds0 > tau).mean() - (preds1 > tau).mean()
