@@ -67,7 +67,3 @@ Experimental results on Adult dataset:
   year={2022}
 }
 ``` -->
-
-### Contributors
-
-@kwkim.online
