@@ -27,7 +27,7 @@ This implementation is constructed over the GPU computing.
 
 Practitioners can freely use other custom datasets.
 
-## Training
+## Quick start
 
 ### Example commands
 
