@@ -17,7 +17,7 @@ Official pytorch implementation of ["Learning fair representation with a paramet
 Automatically, those environmental dependencies are installed by running the following command:
 ```pip install -r requirements.txt```
 
-Moreover, please make sure the running CUDA environment.
+Moreover, please make sure whether the CUDA environment is available.
 This implementation is constructed over the GPU computing.
 
 ### Available datasets
